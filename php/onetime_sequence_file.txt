@@ -1,0 +1,5 @@
+#just a sample onetime_sequence_file.txt file
+#to demonstrate how content will look like.
+#15962:udp,21650:tcp,16368:tcp,24263:tcp,18064:tcp
+#You should not edit this file. This file will be
+#managed by our PHP script.

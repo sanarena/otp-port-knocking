@@ -1,0 +1,3 @@
+Host myserver
+    ProxyCommand bash -c 'MYIP=$(dig +short myip.opendns.com @resolver1.opendns.com.);knock %h -d 100 $(curl -ksS "https://1.2.3.4/generate.php?time=$(php -r "echo time();")&code=$(md5 -qs "${MYIP}type_a_secure_key_here$(php -r "echo time();")")");sleep 0.5; nc %h %p'
+    Hostname 1.2.3.4
