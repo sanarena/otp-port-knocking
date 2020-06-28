@@ -1,4 +1,5 @@
 <?php
+error_reporting(0);
 
 #This is your secure key, which must match with client.
 $secure_keyword='type_a_secure_key_here';
